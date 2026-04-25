@@ -6,4 +6,5 @@ This library can be used by loading it into your project as is, it is not compil
 Example games can be found on my itch.io.
 Some of them are: 
 https://kringleberg.itch.io/scout-tennis
+
 https://kringleberg.itch.io/princess-climber
