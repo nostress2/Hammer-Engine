@@ -1,41 +1,4 @@
 Welcome to the Hammer Engine.
 This is a small engine that was created for making games/software else.
 
-To use this engine you must download these libraries to your machine:
-GLEW, OPENGL, ASSIMP, OPENAL, SNDFILE, STD IMAGE, TINYGLTF.
-for easier reading, these are how the libraries are included in the engine:
-// OpenGL libraries
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
-// GLM library
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
-#include <glm/gtc/noise.hpp>
-#include <glm/gtx/quaternion.hpp>
-// Assimp includes
-#include <assimp/Importer.hpp>
-#include <assimp/scene.h>
-#include <assimp/postprocess.h>
-// Other
-#include <iostream>
-#include <vector>
-#include <string>
-#include <fstream>
-#include <sstream>
-#include <filesystem>
-#include <unordered_map>
-#include <map>
-#include <functional>
-#include <cmath>
-#include <numeric>
-
-#define STB_IMAGE_IMPLEMENTATION
-#include <stb_image.h>
-#define CGLTF_IMPLEMENTATION
-//TinyGLTF
-#include <../TinyGLTF/cgltf.h>
-
-(just in case you need to know beforehand what exact libraires the engine uses)
-
 This library can be used by loading it into your project as is, it is not compiled with Cmake or anything else, you include the files from the "include","src" folders.
